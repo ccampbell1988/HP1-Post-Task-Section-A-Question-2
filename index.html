@@ -248,6 +248,8 @@
     @media(max-width:1100px) { .review-head,.takeaway-grid,.leader-grid,.deficiency-grid{grid-template-columns:1fr 1fr} .practice-meta,.rating-legend{grid-template-columns:1fr 1fr} .takeaway{border-bottom:1px solid var(--border)} }
     @media(max-width:700px) { .review-head,.takeaway-grid,.leader-grid,.deficiency-grid,.practice-meta,.rating-legend,.welcome-card{grid-template-columns:1fr} .takeaway{border-right:0} }
     @media print { .fill-in,.fill-inline{background:#fff} .review-card,.practice-card{break-inside:avoid-page;box-shadow:none} }
+    .review-head { grid-template-columns:1fr !important; }
+    .tick-box.done { display:flex; align-items:center; justify-content:center; background:var(--teal); color:#fff; font-weight:700; font-size:1rem; }
     .filled { margin:.35rem 0 0; color:var(--text-soft); font-size:.88rem; line-height:1.6; }
     .review-intro { padding:1rem 1.35rem 0; color:var(--text-soft); font-size:.95rem; }
     .review-intro p { margin:0; }
@@ -273,8 +275,8 @@
 <p class="section-intro">Continuing education is part of how I model the growth mindset I ask of my players. This season I attended the Gold Medal Pathway (GMP) Welcome call and four GMP webinars delivered by Hockey Canada's Hockey Operations department. Each review below captures three key takeaways and exactly how I will put them into my team environment, on or off the ice.</p>
 <div class="template-banner"><div><strong>Template note: </strong>Orange dashed fields are to be completed with my own notes from each webinar I attended. Part B (culture and leadership) is drafted from my Team Building plan and should be reviewed and personalized before submission.</div></div>
 <div class="welcome-card">
-<div class="tick-box" aria-hidden="true"></div>
-<div><span class="field-label">GMP Welcome Call attended</span><span class="fill-in">[Date attended]</span></div>
+<div class="tick-box done" aria-hidden="true">&#10003;</div>
+<div><span class="field-label">GMP Welcome Call</span><p class="filled"><strong>Attended</strong></p></div>
 <div><span class="field-label">Key message from the Welcome call</span><span class="fill-in">[One-line summary]</span></div>
 </div>
 <div class="tracking-grid">
@@ -293,8 +295,6 @@
 <article class="review-card" id="review-1">
 <div class="review-head">
 <div><span class="field-label">Webinar 1 title</span><p class="filled"><strong>Athlete Identity: Creative and Dynamic</strong> (Gold Medal Pathway, National Team Technical Curriculum)</p></div>
-<div><span class="field-label">Date attended</span><span class="fill-in">[MM/DD/YYYY]</span></div>
-<div><span class="field-label">Presenter(s)</span><span class="fill-in">[Presenter name and role]</span></div>
 </div>
 <div class="review-intro"><p>This one really got me thinking about how I coach skill. The big message was that being "creative and dynamic" isn't just for the flashy, highly skilled kids. It's about reading the play and using deception to buy yourself and your teammates more time and space. That's something every player on my team can get better at, including my grinders.</p></div>
 <div class="takeaway-grid"><div class="takeaway">
@@ -326,8 +326,6 @@
 </article><article class="review-card" id="review-2">
 <div class="review-head">
 <div><span class="field-label">Webinar 2 title</span><span class="fill-in">[GMP webinar title]</span></div>
-<div><span class="field-label">Date attended</span><span class="fill-in">[MM/DD/YYYY]</span></div>
-<div><span class="field-label">Presenter(s)</span><span class="fill-in">[Presenter name and role]</span></div>
 </div>
 <div class="takeaway-grid"><div class="takeaway">
 <h4>Key Takeaway 1</h4>
@@ -358,8 +356,6 @@
 </article><article class="review-card" id="review-3">
 <div class="review-head">
 <div><span class="field-label">Webinar 3 title</span><span class="fill-in">[GMP webinar title]</span></div>
-<div><span class="field-label">Date attended</span><span class="fill-in">[MM/DD/YYYY]</span></div>
-<div><span class="field-label">Presenter(s)</span><span class="fill-in">[Presenter name and role]</span></div>
 </div>
 <div class="takeaway-grid"><div class="takeaway">
 <h4>Key Takeaway 1</h4>
@@ -390,8 +386,6 @@
 </article><article class="review-card" id="review-4">
 <div class="review-head">
 <div><span class="field-label">Webinar 4 title</span><span class="fill-in">[GMP webinar title]</span></div>
-<div><span class="field-label">Date attended</span><span class="fill-in">[MM/DD/YYYY]</span></div>
-<div><span class="field-label">Presenter(s)</span><span class="fill-in">[Presenter name and role]</span></div>
 </div>
 <div class="takeaway-grid"><div class="takeaway">
 <h4>Key Takeaway 1</h4>
